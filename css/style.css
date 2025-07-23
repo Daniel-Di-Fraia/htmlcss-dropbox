@@ -63,7 +63,7 @@ body {
     margin-top: 65px;
 }
 
-.col {
+.col-jumbo {
     /* DEBUG */
     background-color: blueviolet;
     height: 300px;
@@ -76,3 +76,45 @@ h1 {
     font-size: 75px;
     font-weight: 800;
 }
+
+/* main pagina */
+
+/* sezione piano business */
+.main-container {
+    width: 55%;
+    margin: 140px auto;
+}
+
+.main-container h2 {
+    font-size: 40px;
+    padding-bottom: 65px;
+}
+
+#anno {
+    margin-left: 80px;
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col {
+    /* DEBUG */
+    background-color: chartreuse;
+    height: 600px;
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 50px;
+
+}
+
+.col-dim {
+    background-color: chartreuse;
+    height: 300px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+
