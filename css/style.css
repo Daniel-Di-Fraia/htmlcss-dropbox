@@ -117,4 +117,19 @@ h1 {
     margin-top: 50px;
 }
 
+/* sezione partner dropbox */
 
+.partner-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partner-col {
+    /* DEBUG */
+    background-color: orange;
+    height: 500px;
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 50px;
+}
