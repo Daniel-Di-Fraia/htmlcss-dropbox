@@ -122,7 +122,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: #468dff;
+    background-color: #6ba4ff;
 }
 
 .col-jumbo span {
@@ -154,6 +154,38 @@ h1 {
     flex-wrap: wrap;
 }
 
+.col-dim {
+    /* DEBUG */
+    /* background-color: chartreuse;
+    height: 300px; */
+    border: 1px solid rgb(211, 210, 210);
+    margin-top: 50px;
+}
+
+.col-dim h3 {
+    font-size: 23px;
+    margin-top: 30px;
+    padding-bottom: 12px;
+}
+
+.col-dim p {
+    margin-top: 45px;
+    padding-right: 340px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.flex-azienda {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-button {
+    width: 25%;
+    margin-right: 40px;
+}
+
+
 .col {
     /* DEBUG */
     /* background-color: chartreuse;
@@ -162,14 +194,6 @@ h1 {
     width: 30%;
     margin-top: 50px;
 
-}
-
-.col-dim {
-    /* DEBUG */
-    background-color: chartreuse;
-    height: 300px;
-    border: 1px solid rgb(211, 210, 210);
-    margin-top: 50px;
 }
 
 .work-type {
@@ -209,6 +233,7 @@ strong {
     margin-top: 50px;
     list-style-type: none;
     font-size: 14px;
+    padding-right: 30px;
 }
 
 .info-user li {
@@ -233,7 +258,7 @@ strong {
 }
 
 .border-bot {
-    border-bottom: 1px rgb(211, 210, 210) solid;
+    border-bottom: 1px #D3D2D2 solid;
     margin-top: 40px;
     width: 20%;
 }
@@ -248,6 +273,8 @@ strong {
     list-style-type: none;
     font-size: 14px;
     margin-top: 30px;
+    margin-bottom: 55px;
+    padding-right: 20px;
 }
 
 .features li {
@@ -256,13 +283,6 @@ strong {
     display: flex;
     gap: 8px;
 }
-
-
-
-
-
-
-
 
 
 /* sezione partner dropbox */
