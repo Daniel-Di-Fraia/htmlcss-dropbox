@@ -24,7 +24,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 30px;
-
 }
 
 .row-nav ul {
@@ -48,15 +47,20 @@ body {
     text-align: center;
     line-height: 29px;
     margin-right: 65px;
+    color: white;
+}
+
+.header-button:hover {
+    background-color: #6ba4ff;
 }
 
 
 
 
 
-.row-nav:hover a {
+/* .row-nav:hover a {
     border-bottom: 2px black solid;
-}
+} */
 
 /* jumbotron header */
 
@@ -185,6 +189,9 @@ h1 {
     margin-right: 40px;
 }
 
+i {
+    font-size: 20px;
+}
 
 .col {
     /* DEBUG */
@@ -289,20 +296,43 @@ strong {
 
 .partner-row {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    gap: 50px;
 }
 
 .partner-col {
     /* DEBUG */
-    background-color: orange;
+    /* background-color: orange;
     height: 500px;
-    border: 1px solid black;
-    width: 50%;
+    border: 1px solid black; */
+    width: 60%;
     margin-top: 50px;
 }
 
-i {
-    font-size: 20px;
+.partner-row img {
+    height: 520px;
 }
 
+.partner-row h3 {
+    font-size: 23px;
+    margin-top: 50px;
+    padding-right: 40px;
+}
+
+.partner-row p {
+    margin-top: 15px;
+    padding-right: 86px;
+    line-height: 22px;
+}
+
+.partner-button {
+    border: 1px black solid;
+    margin-top: 30px;
+    width: 40%;
+    height: 45px;
+    text-align: center;
+    line-height: 44px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
