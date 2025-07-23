@@ -342,3 +342,32 @@ strong {
     color: black;
 }
 
+/* main operazioni */
+.operazioni-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-op {
+    /* DEBUG */
+    /* background-color: red;
+    height: 300px;
+    border: 1px black solid; */
+    width: 30%;
+}
+
+.col-op img {
+    max-width: 100%;
+}
+
+.col-op h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    line-height: 31px;
+}
+
+.col-op p {
+    margin-top: 30px;
+    line-height: 21px;
+}
