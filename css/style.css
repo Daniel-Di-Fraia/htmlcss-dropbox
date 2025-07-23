@@ -371,3 +371,61 @@ strong {
     margin-top: 30px;
     line-height: 21px;
 }
+
+#team {
+    padding-right: 400px;
+}
+
+/* footer pagina */
+.footer-container {
+    background-color: black;
+    margin: 0 auto;
+    /* height: 500px; */
+
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 65%;
+}
+
+.col-footer {
+    /* DEBUG */
+    /* background-color: pink;
+    height: 300px; */
+    width: 15%;
+    margin-top: 100px;
+}
+
+.col-footer h3 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.col-footer ul {
+    color: rgb(197, 197, 197);
+    list-style-type: none;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.border-footer {
+    width: 75%;
+    margin-top: 110px;
+}
+
+.end {
+    margin: 0 auto;
+    width: 65%;
+    color: rgb(197, 197, 197);
+    padding-bottom: 100px;
+}
+
+.footer-container i {
+    font-size: 15px;
+    margin-top: 60px;
+}
+
