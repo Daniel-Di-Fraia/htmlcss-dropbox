@@ -18,7 +18,6 @@ body {
     width: 100%;
     position: fixed;
     z-index: 900;
-    color: black;
 }
 
 .row-nav {
@@ -38,6 +37,7 @@ body {
 
 .row-nav a {
     text-decoration: none;
+    color: black;
 }
  
 .header-button {
@@ -47,7 +47,6 @@ body {
     width: 90%;
     text-align: center;
     line-height: 29px;
-    color: white;
     margin-right: 65px;
 }
 
@@ -157,20 +156,114 @@ h1 {
 
 .col {
     /* DEBUG */
-    background-color: chartreuse;
-    height: 600px;
-    border: 1px solid black;
+    /* background-color: chartreuse;
+    height: 600px; */
+    border: 1px solid rgb(211, 210, 210);
     width: 30%;
     margin-top: 50px;
 
 }
 
 .col-dim {
+    /* DEBUG */
     background-color: chartreuse;
     height: 300px;
-    border: 1px solid black;
+    border: 1px solid rgb(211, 210, 210);
     margin-top: 50px;
 }
+
+.work-type {
+    text-align: center;
+    line-height: 38px;
+    border-bottom: 1px grey solid;
+}
+
+.work-type i {
+    font-size: 16px;
+}
+
+.col h3 {
+    font-size: 23px;
+    margin-top: 30px;
+    padding-bottom: 12px;
+}
+
+strong {
+    font-size: 14px;
+    
+}
+
+.col span {
+    color: grey;
+    font-size: 14px;
+    display: block;
+    margin-top: 8px;
+    
+}
+
+.margin {
+    margin-left: 30px;
+}
+
+.info-user {
+    margin-top: 50px;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.info-user li {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+    padding-right: 25px;
+}
+
+.info-user i {
+    font-size: 14px;
+}
+
+.width-button {
+    width: 83%;
+    margin-top: 50px;
+}
+
+.little-text {
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.border-bot {
+    border-bottom: 1px rgb(211, 210, 210) solid;
+    margin-top: 40px;
+    width: 20%;
+}
+
+.col h4 {
+    margin-top: 50px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.features {
+    list-style-type: none;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.features li {
+    margin-top: 20px;
+    padding-right: 25px;
+    display: flex;
+    gap: 8px;
+}
+
+
+
+
+
+
+
+
 
 /* sezione partner dropbox */
 
@@ -192,3 +285,4 @@ h1 {
 i {
     font-size: 20px;
 }
+
