@@ -406,10 +406,14 @@ strong {
 }
 
 .col-footer ul {
-    color: rgb(197, 197, 197);
     list-style-type: none;
     line-height: 35px;
     font-size: 16px;
+}
+
+.col-footer a {
+    text-decoration: none;
+    color: rgb(197, 197, 197);
 }
 
 .border-footer {
